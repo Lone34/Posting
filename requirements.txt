@@ -3,3 +3,4 @@ gunicorn
 requests
 bs4
 flask_login
+flask_sqlalchemy
