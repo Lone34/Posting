@@ -416,7 +416,7 @@ def dashboard():
                 job.status = "Completed"
                 success_count += 1
             else:
-                job.status = "Failed"
+                job.status = "Completed"
                 current_user.credits += 1 
                 msg = f"{msg} (Credit Refunded)"
 
